@@ -6,12 +6,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "prettier .",
+    "fix": "prettier . --write"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.3",
     "nuxt": "^3.8.2",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "prettier": "^3.6.2"
   }
 }
