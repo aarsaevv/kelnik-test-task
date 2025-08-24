@@ -5,5 +5,8 @@ export default defineNuxtConfig({
     // prerender index route by default
     "/": { prerender: true },
   },
+  srcDir: "src",
   compatibilityDate: "latest",
+  modules: ["@pinia/nuxt"],
+  appDir: ".",
 });
